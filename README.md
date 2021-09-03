@@ -1,3 +1,6 @@
+# About Gungnir
+Gungnir is a project to monitor the coverage of the target java project. This just like Jacoco, but the coverage is watched in runtime, not in the end of the test.\
+So, you can just remark this is a runtime coverage monitor.
 
 # How to use
 This is a project based on Spring Cloud. You can run every micro-service just like a normal Spring Cloud Project.

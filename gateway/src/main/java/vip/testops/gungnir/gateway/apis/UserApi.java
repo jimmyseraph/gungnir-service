@@ -4,6 +4,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import vip.testops.gungnir.gateway.apis.fallback.UserApiFallbackFactory;
+import vip.testops.gungnir.gateway.commons.Response;
 import vip.testops.gungnir.gateway.entities.dto.UserDTO;
 
 @FeignClient(name = "user", fallbackFactory = UserApiFallbackFactory.class)

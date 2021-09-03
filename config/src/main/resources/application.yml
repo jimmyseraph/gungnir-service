@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:jimmyseraph/gungnir-config.git
+
+  profiles:
+    active: dev,local,test
+
+  security:
+    user:
+      name: gungnir
+      password: 123456
+
+server:
+  port: 10001

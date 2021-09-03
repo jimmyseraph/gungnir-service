@@ -1,6 +1,6 @@
 # About Gungnir
-![GitHub CI](https://github.com/jimmyseraph/gungnir-service/actions/workflows/maven-ci/badge.svg)
-Gungnir is a project to monitor the coverage of the target java project. This just like Jacoco, but the coverage is watched in runtime, not in the end of the test.\
+![GitHub CI](https://github.com/jimmyseraph/gungnir-service/actions/workflows/maven-ci.yml/badge.svg)
++ Gungnir is a project to monitor the coverage of the target java project. This just like Jacoco, but the coverage is watched in runtime, not in the end of the test.\
 So, you can just remark this is a runtime coverage monitor.
 
 # How to use
